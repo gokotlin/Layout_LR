@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Layout_LR</string>
+    <string name="tv1">第一个</string>
+    <string name="tv2">第二个</string>
+    <string name="tv3">第三三三三个</string>
+    <string name="tv4">第四个</string>
+    <string name="tv5">第五个</string>
+    <string name="tv_title">这是标题</string>
+    <string name="tv_content">这是内容</string>
+</resources>

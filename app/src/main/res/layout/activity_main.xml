@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.csm.layout_lr.MainActivity">
+
+    <!--线性布局中水平方向，不能水平居中，不能右对齐-->
+    <!--线性布局中竖直方向，不能竖直居中，不能底部对齐-->
+    <!--线性布局中如果是匹配父元素，那么权重代表优先级，
+    如果是包含内容或设定像素值，则是先将像素值分配完后，再按权重比例分配-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_weight="1"/>
+
+</LinearLayout>
